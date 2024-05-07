@@ -54,6 +54,13 @@ const Home = () => {
       setYearDisplay(results.anos);
       setMonthDisplay(results.meses);
       setDayDisplay(results.dias);
+    } else {
+      setYearDisplay("--");
+      setMonthDisplay("--");
+      setDayDisplay("--");
+      setDay("");
+      setYear("");
+      setMonth("");
     }
   };
 

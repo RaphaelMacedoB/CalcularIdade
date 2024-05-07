@@ -12,6 +12,7 @@
   padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.163);
   border-radius: 10px;
+  font-size: 1rem;
 }
 .inputContainer label{
   margin-bottom: 10px;

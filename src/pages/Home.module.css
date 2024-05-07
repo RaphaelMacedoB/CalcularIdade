@@ -69,9 +69,7 @@
     font-size: 2rem; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    
   }
 
   .line {
@@ -86,9 +84,9 @@
     font-size: 1rem; 
     text-align: center;
     display: flex;
+    justify-content: center;
   }
-
-  .hiffen {
-    margin-right: 1rem;
+  .hiffen{
+    margin: 0 1rem;
   }
 }
