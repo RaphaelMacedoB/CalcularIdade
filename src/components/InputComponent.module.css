@@ -1,0 +1,35 @@
+/* InputComponent.module.css */
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer input {
+  max-width: 50%;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.163);
+  border-radius: 10px;
+}
+.inputContainer label{
+  margin-bottom: 10px;
+  font-family: "Poppins-Regular", sans-serif;
+  color: gray;
+}
+.inputContainer input::placeholder{
+  font-size: 1rem;
+  color: gray;
+}
+
+.inputContainer input.errorInput {
+  border-color: red; /* Cor vermelha para inputs com erro */
+}
+
+.errorMessage {
+  color: red; /* Mensagens de erro em vermelho */
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Poppins-Regular";
+}
